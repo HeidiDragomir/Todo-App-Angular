@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import {TodoDataService} from './todo-data.service';
 import { TodoListHeaderComponent } from './todo-list-header/todo-list-header.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
+import { TodoListItemComponent } from './todo-list-item/todo-list-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoListHeaderComponent,
-    TodoListComponent
+    TodoListComponent,
+    TodoListItemComponent
   ],
   imports: [
     BrowserModule,
